@@ -2,7 +2,7 @@ Summary:	XSLT preprocessor
 Summary(pl):	Preprocesor XSLT
 Name:		xspp
 Version:	0.0.3
-Release:	1.1
+Release:	2
 License:	BSD
 Group:		Applications/Publishing/XML
 Vendor:		Michal Moskal <malekith@pld-linux.org>
