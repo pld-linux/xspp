@@ -26,7 +26,7 @@ autora rozmiarem wywo³ania xsl:call-template :)
 %setup -q
 
 %build
-%{__make} opt
+%{__make} all opt
 
 %install
 rm -rf $RPM_BUILD_ROOT
