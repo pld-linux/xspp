@@ -6,9 +6,9 @@ Release:	1
 License:	BSD
 Group:		Applications/Publishing/XML
 Vendor:		Michal Moskal <malekith@pld-linux.org>
-URL:		http://www.kernel.pl/~malekith/%{name}/
 Source0:	http://www.kernel.pl/~malekith/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	c5b38f2dfec624bcffb15c14d5d762ba
+URL:		http://www.kernel.pl/~malekith/xspp/
 BuildRequires:	ocaml-camlp4
 BuildRequires:	ocaml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -32,7 +32,9 @@ autora rozmiarem wywo³ania xsl:call-template :)
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install PREFIX=%{_prefix} DESTDIR=$RPM_BUILD_ROOT
+%{__make} install \
+	DESTDIR=$RPM_BUILD_ROOT \
+	PREFIX=%{_prefix}
 
 %clean
 rm -rf $RPM_BUILD_ROOT
