@@ -32,13 +32,12 @@ autora rozmiarem wywo³ania xsl:call-template :)
 rm -rf $RPM_BUILD_ROOT
 
 %{__make} install PREFIX=%{_prefix} DESTDIR=$RPM_BUILD_ROOT
-gzip -9nf LICENSE
 
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc doc/*.html *.gz
+%doc doc/*.html LICENSE
 %attr(755,root,root) %{_bindir}/*
 %{_examplesdir}/%{name}-%{version}
