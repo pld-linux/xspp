@@ -6,9 +6,9 @@ Release:	1
 License:	BSD
 Group:		Applications/Publishing/XML
 Vendor:		Michal Moskal <malekith@pld-linux.org>
-Source0:	http://www.kernel.pl/~malekith/%{name}/%{name}-%{version}.tar.gz
+Source0:	http://ep09.pld-linux.org/~malekith/%{name}/%{name}-%{version}.tar.gz
 # Source0-md5:	c5b38f2dfec624bcffb15c14d5d762ba
-URL:		http://www.kernel.pl/~malekith/xspp/
+URL:		http://ep09.pld-linux.org/~malekith/xspp/
 BuildRequires:	ocaml-camlp4
 BuildRequires:	ocaml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
