@@ -1,7 +1,7 @@
 Summary:	XSLT preprocessor
 Summary(pl):	Preprocesor XSLT
 Name:		xspp
-Version:	0.0.1
+Version:	0.0.2
 Release:	1
 License:	BSD
 Group:		Applications/Publishing/XML
@@ -26,7 +26,7 @@ autora rozmiarem wywo³ania xsl:call-template :)
 %setup -q
 
 %build
-%{__make} all opt
+%{__make} opt
 
 %install
 rm -rf $RPM_BUILD_ROOT
