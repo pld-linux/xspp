@@ -8,6 +8,7 @@ Group:		Applications/Publishing/XML
 Vendor:		Michal Moskal <malekith@pld-linux.org>
 URL:		http://www.kernel.pl/~malekith/%{name}/
 Source0:	http://www.kernel.pl/~malekith/%{name}/%{name}-%{version}.tar.gz
+# Source0-md5:	c5b38f2dfec624bcffb15c14d5d762ba
 BuildRequires:	ocaml-camlp4
 BuildRequires:	ocaml
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
