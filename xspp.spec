@@ -1,5 +1,5 @@
 Summary:	XSLT preprocessor
-Summary(pl.UTF-8):   Preprocesor XSLT
+Summary(pl.UTF-8):	Preprocesor XSLT
 Name:		xspp
 Version:	0.0.3
 Release:	2
