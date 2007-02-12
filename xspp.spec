@@ -1,5 +1,5 @@
 Summary:	XSLT preprocessor
-Summary(pl):	Preprocesor XSLT
+Summary(pl.UTF-8):   Preprocesor XSLT
 Name:		xspp
 Version:	0.0.3
 Release:	2
@@ -18,10 +18,10 @@ XSPP stands for XSLT Stylesheet PreProcessor. It can be used to
 simplify writing XSLT stylesheets. It is result of author being
 terrified by xsl:call-template size :)
 
-%description -l pl
-XSPP to skrÛt od XSLT Stylesheet PreProcessor. Moøe byÊ uøyty do
-uproszczenia pisania arkuszy stylÛw XSLT. Jest wynikiem przeraøenia
-autora rozmiarem wywo≥ania xsl:call-template :)
+%description -l pl.UTF-8
+XSPP to skr√≥t od XSLT Stylesheet PreProcessor. Mo≈ºe byƒá u≈ºyty do
+uproszczenia pisania arkuszy styl√≥w XSLT. Jest wynikiem przera≈ºenia
+autora rozmiarem wywo≈Çania xsl:call-template :)
 
 %prep
 %setup -q
